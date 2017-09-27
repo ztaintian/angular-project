@@ -1,0 +1,12 @@
+<div>
+  <div>div</div>
+  <p>
+    <button (click)="clickMe($event)">点我</button>
+    <img [src]="img" alt="">
+    <input value="hhhhhhh" (input)="intC($event)" type="text">
+    <span [ngClass]="{aaaa:true,ggg:false}" [ngStyle]="{'color':'red'}">bbbbbbbb</span>
+    
+  </p>
+  <input [(ngModel)]="name"  type="text">{{name}}
+</div>
+
