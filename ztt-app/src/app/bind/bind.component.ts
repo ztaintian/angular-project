@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class BindComponent implements OnInit {
   img:string='http://placehold.it/300';
   name:string;
+  birthday:string = '2009-2-2';
+  size:number=6;
   constructor() { }
   ngOnInit() {
     console.log($('input').val())
