@@ -7,5 +7,8 @@
 </ul>
 <img src="http://via.placeholder.com/350x150" alt="">
 <app-bind></app-bind>
+<input type="text" placeholder="请输入number" [(ngModel)]="stock">
+<app-order [number]="100" [stockCode]="stock"> </app-order>
 </div>
+<app-form></app-form>
 
